@@ -17,10 +17,10 @@ The placeholder's name and the value to use can be supplied as an associative ar
 
 ```php                                
                                                     //placeholder
-    $sql = "SELECT forename, surname FROM member WHERE id = :id;"
-    $statement = $pdo->prepare($sql);
-                        //ö
-    $statement->execute(['id'] => $id);
+$sql = "SELECT forename, surname FROM member WHERE id = :id;"
+$statement = $pdo->prepare($sql);
+                        //passing the actual value
+$statement->execute(['id'] => $id);
 ```
 The SQL query above has a placeholder called :id. The execute() method replaces: id with the value stored in the $id variable. Programmers call this a **prepared statement**.
 
@@ -28,7 +28,7 @@ NEVER add values from a query string or form string to create a SQL statement. T
 
 ### Don't do:
 ```php
-    $sql = 'SELECT forename, surname FROM member WHERE id=' . $id;
-    $sql = 'SELECT forename, surname FROM member WHERE id=' . $_GET['id'];
+$sql = 'SELECT forename, surname FROM member WHERE id=' . $id;
+$sql = 'SELECT forename, surname FROM member WHERE id=' . $_GET['id'];
 ```
 
