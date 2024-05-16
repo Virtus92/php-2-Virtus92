@@ -1,5 +1,5 @@
 # PHP 2 + CSS Frameworks Kompetenzcheck
-**Erstelle ein kleines CMS-System (Customer Management System)**
+**Erstelle ein kleines CRM-System (Customer Relation Management)**
 
 **Ziel:**  
 - Entwickle ein kleines Kundenverwaltungssystem für ein KMU (Klein- und Mittelunternehmen), das Überblick über seine KundInnendaten erhalten möchte.  
@@ -42,7 +42,7 @@ The tables should be structured as follows: 
 - Relation: users 1 – n clients  
 
 **Features:**  
-- User registration  
+- User Registration  
 - User login  
 - Creation of new customers via a contact form  
 - Overview of all customers  
