@@ -8,7 +8,7 @@
 1. **Security:** Prepared statements help prevent SQL injection attacks by separating SQL logic from the data being supplied. Since input values are treated as parameters rather than concatenated directly into the SQL query string, it significantly reduces the risk of malicious SQL injection attacks.
 2. **Performance:** Prepared statements can improve performance by reducing the overhead associated with parsing, compiling, and optimizing SQL queries. The DBMS can compile the query once and reuse the execution plan for subsequent executions with different parameter values, resulting in faster query execution times, especially for queries that are executed frequently.
 3. **Optimization:** Prepared statements allow the DBMS to optimize the execution plan based on the parameter values provided at runtime. This can lead to better query performance and resource utilization, especially for complex queries or queries involving large datasets.
-4. **Portability:** Prepared statements offer better portability across different database platforms since they use standard SQL syntax and parameter binding mechanisms. This allows developers to write database-agnostic code that can work with various DBMS without modification.
+4. **Portability:** Prepared statements offer better portability across different database platforms since they use standard SQL syntax and parameter binding mechanisms.
 
 ## How and when to use them in PHP?
 ### Using data that can change in a sql query
