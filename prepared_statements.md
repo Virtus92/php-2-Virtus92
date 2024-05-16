@@ -11,10 +11,10 @@
 4. **Portability:** Prepared statements offer better portability across different database platforms since they use standard SQL syntax and parameter binding mechanisms. This allows developers to write database-agnostic code that can work with various DBMS without modification.
 
 ## How and when to use them in PHP?
-# Using data that can change in a sql query
+### Using data that can change in a sql query
 Each time a page is requested, it can use different values in the SQL query to get different data from the database. In such cases, the SQL query must be **prepared** first, then **executed**.
 
-## Step 1: Prepare
+### Step 1: Prepare
 SQL statements use placeholders to represent values that can change each time the SQL statement is run. A SQL placeholder acts like a variable, but its name starts with a colon **:** , not a $ symbol.
 
 When a SQL query contains a placeholder, instead of calling the PDO object's **query(**) method to run the query, the PDO object's **prepare()** method is called.
