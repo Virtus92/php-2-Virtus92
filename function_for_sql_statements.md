@@ -1,5 +1,5 @@
 # Function to Execute SQL Statements
-Getting PDO to run a SOL query and return the result set requires two or three statements, writing a user-defined function lets you do it in one.
+Getting PDO to run a SQL query and return the result set requires two or three statements, writing a user-defined function lets you do it in one.
 
 When a SQL query does not use parameters, the PDO object's query() method will run a SQL query and return a PDOStatement object representing the result set:
 ```php
