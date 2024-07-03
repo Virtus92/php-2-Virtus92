@@ -11,3 +11,6 @@
 ## Links und Zusatzmaterialien
 - [PDO Grundlagen, Definition, Herstellen einer DB Verbindung, Abfragen usw.](https://www.geeksforgeeks.org/what-is-pdo-in-php/)
 - [The only proper PDO Tutorial](https://phpdelusions.net/pdo)
+- [Prepared Statements](https://www.w3schools.com/php/php_mysql_prepared_statements.asp)
+- [Passwortverschlüsselung](https://www.php.net/manual/en/function.password-hash.php)
+- [Beispiel Ticket System](https://codeshack.io/ticketing-system-php-mysql/)
