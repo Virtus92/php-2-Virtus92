@@ -10,8 +10,8 @@
 
 Die Tabellen in der Datenbank sollen folgendermaßen aussehen:  
 - users: user_id, name, email, password  
-- clients: company_id, company_name, contact_person, phone, adress, created_by (welcher User hat den Eintrag erstellt), created_at(Erstelldatum), edited_at(Bearbeitungsdatum)  
-- Relation: users 1 – n clients    
+- customers: company_id, company_name, contact_person, phone, adress, created_by (welcher User hat den Eintrag erstellt), created_at(Erstelldatum), edited_at(Bearbeitungsdatum)  
+- Relation: users 1 – n customers    
 
 **Features:**  
 - User-Registrierung  
@@ -38,8 +38,8 @@ Develop a small customer management system for a SME (Small and Medium-sized Ent
 **Requirements:**  
 The tables should be structured as follows:  
 - users: user_id, name, email, password  
-- clients: company_id, company_name, contact_person, phone, address, created_by (which user created the entry), created_at (creation date), edited_at (modification date)  
-- Relation: users 1 – n clients  
+- customers: company_id, company_name, contact_person, phone, address, created_by (which user created the entry), created_at (creation date), edited_at (modification date)  
+- Relation: users 1 – n customers  
 
 **Features:**  
 - User Registration  
@@ -48,7 +48,7 @@ The tables should be structured as follows: 
 - Overview of all customers  
 - Ability to edit and delete each entry  
 - Logged-in users can see all entries in the system  
-- However, logged-in users can only edit or delete the entries they have created (Hint: This can be solved using a session).  
+- However, logged-in users can only edit or delete their created entries (Hint: This can be solved using a session).  
 
 **User Interface:**  
 - Please use one of the CSS frameworks from the CSS Frameworks module for the user interface (GUI).  
