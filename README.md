@@ -7,3 +7,7 @@
 
 ## Kompetenzcheck
 [CMS Kompetenzcheck](php_2_cms_kompetenzcheck.md)
+
+## Links und Zusatzmaterialien
+- [PDO Grundlagen, Definition, Herstellen einer DB Verbindung, Abfragen usw.](https://www.geeksforgeeks.org/what-is-pdo-in-php/)
+- [The only proper PDO Tutorial](https://phpdelusions.net/pdo)
