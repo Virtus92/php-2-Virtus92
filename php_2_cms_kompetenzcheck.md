@@ -10,7 +10,7 @@
 
 Die Tabellen in der Datenbank sollen folgendermaßen aussehen:  
 - users: user_id, name, email, password  
-- customers: company_id, company_name, contact_person, phone, adress, created_by (welcher User hat den Eintrag erstellt), created_at(Erstelldatum), edited_at(Bearbeitungsdatum)  
+- customers: company_id, company_name, contact_person, phone, adress, created_by (welcher User hat den Eintrag erstellt), created_at (Erstelldatum), edited_at (Bearbeitungsdatum)  
 - Relation: users 1 – n customers    
 
 **Features:**  
