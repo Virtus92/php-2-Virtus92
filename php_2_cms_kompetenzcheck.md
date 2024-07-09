@@ -3,7 +3,7 @@
 
 **Ziel:**  
 - Entwickle ein kleines Kundenverwaltungssystem für ein KMU (Klein- und Mittelunternehmen), das Überblick über seine KundInnendaten erhalten möchte.  
-- Die eingetragenen KundInnen sollen in einer MYSQL Datenbank abgespeichert werden, man muss die Daten bearbeiten und sich eine Übersicht der Einträge anzeigen lassen können.  
+- Die eingetragenen KundInnen sollen in einer MYSQL Datenbank abgespeichert werden, man muss die Datensätze bearbeiten und sich eine Übersicht der KundInnen-Einträge anzeigen lassen können.  
 - Nutze für die Verbindung zur Datenbank PDO.  
 
 **Anforderungen:**  
@@ -16,11 +16,11 @@ Die Tabellen in der Datenbank sollen folgendermaßen aussehen: 
 **Features:**  
 - User-Registrierung  
 - User-LogIn  
-- Anlegen von NeukundInnen über ein Kontaktformular  
+- Anlegen von NeukundInnen über ein Formular  
 - Übersicht aller KundInnen  
-- Möglichkeit jeden Eintrag zu bearbeiten & zu löschen  
-- Eingeloggte User können alle Einträge im System sehen  
-- ABER: Eingeloggte User können nur die Einträge bearbeiten bzw. löschen, die sie auch selbst erstellt haben. (Tipp: Das könnt ihr mit einer Session lösen).  
+- Möglichkeit jeden KundInnen-Eintrag zu bearbeiten & zu löschen  
+- Eingeloggte User können alle KundInnen-Einträge im System sehen  
+- ABER: Eingeloggte User können nur die KundInnen-Einträge bearbeiten bzw. löschen, die sie auch selbst erstellt haben. (Tipp: Das könnt ihr mit einer Session lösen).  
 
 **Benutzeroberfläche**  
 - Für die Benutzeroberfläche (GUI) verwendet bitte eines der CSS Frameworks aus dem Modul CSS Frameworks (Ja, so könnt ihr beide Kompetenzen miteinander abschließen 😉).   
@@ -44,7 +44,7 @@ The tables should be structured as follows: 
 **Features:**  
 - User Registration  
 - User login  
-- Creation of new customers via a contact form  
+- Creation of new customers via a form  
 - Overview of all customers  
 - Ability to edit and delete each entry  
 - Logged-in users can see all entries in the system  
